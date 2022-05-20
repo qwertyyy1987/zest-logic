@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Global properties ======================================================== */
+body {
+	background:#fff;
+	font-family:'Roboto Condensed', Helvetica, sans-serif;
+	font-size:13px; 
+	line-height:15px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html, body { height:100%;}
+
+a {
+	color:#d52d00; 
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+}
+
+
+
+/* Global Structure ============================================================= */
+
+	/* Header */
+
+	
+	/* Content */
+		
+	/* Footer */
+	
+/* Left & Right alignment */
+
+.fleft { float:left;}
+.fright { float:right;}
+.clear { clear:both;}
+
+.col-1, .col-2, .col-3 { float:left;}
+
+.alignright { text-align:right;}
+.aligncenter { text-align:center;}
+
+.wrapper:after {
+  display: block;
+  width: 100%;
+  content: "";
+  clear: both;
+}
+.extra-wrap {overflow:hidden;}
+/*----- form defaults -----*/
+input, select, textarea { 
+	font-size:1em;
+	vertical-align:middle;
+	font-weight:normal;
+	outline:none;
+}
+
+/*----- other -----*/
+.img-indent { 
+	margin:0 27px 0 0; 
+	float:left;
+}
+
+.all {
+	overflow: hidden;
+}
+.relative {
+	position: relative;
+}
+.mobile-version {
+	display: none;
+}
+/*--------------------- header start--------------- */
+header {
+	padding: 0 0 0px 0; 
+	position:relative;
+	z-index: 10;
+}
+
+
+
+
+
+
+/*--------------------- content start--------------- */
+.content {
+	position: relative;
+	min-height: 3600px;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------- footer start--------------- */
+footer {
+	position: relative;
+	min-height: 3600px;
+}
+
